@@ -1,0 +1,7 @@
+Set "sass": "^1.68.0" in packages.json
+
+npm install --legacy-peer-deps
+
+set NODE_OPTIONS=--openssl-legacy-provider
+
+npx ng s
